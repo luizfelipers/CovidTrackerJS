@@ -32,9 +32,11 @@ class App extends React.Component {
     return (
       <div className={styles.container}>
         
+         <CountryPicker></CountryPicker>
+
         <Cards data={data}></Cards>
 
-        <CountryPicker></CountryPicker>
+       
        
         <Chart></Chart>
 
