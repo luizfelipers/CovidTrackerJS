@@ -18,6 +18,8 @@ useEffect(()=> {
     fetchAPI();
 }, [setFetchedCountries]);
 
+console.log(fetchedCountries);
+
     return (
         <div>
             <FormControl>
