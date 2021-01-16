@@ -44,6 +44,7 @@ this.setState({data:fetchedData, country:country});
     return (
       <div className={styles.container}>
         <img className={styles.image} src={coronaLogo} alt='Covid19'></img>
+        <h2>Rastreia Covid19</h2>
          <CountryPicker handleCountryChange={this.handleCountryChange}></CountryPicker>
 
         <Cards data={data}  ></Cards>
